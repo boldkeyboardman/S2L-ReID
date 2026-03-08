@@ -1,6 +1,6 @@
 # Continuous Short-Term to Long-Term Person Re-Identification
 
-The *official* repository for [Continuous Short-Term to Long-Term Person Re-Identification], IJCAI 2023 (Under Review).
+The *official* repository for [Continuous Short-Term to Long-Term Person Re-Identification], TMM 2026 (ACCEPT).
 
 Thank you for your kindly attention.
 
