@@ -1,4 +1,4 @@
-# Continuous Short-Term to Long-Term Person Re-Identification
+# Bridging the Short-Term and Long-Term Gap: A Cross-Task Continuous Learning Person Re-Identification Problem
 
 The *official* repository for [Bridging the Short-Term and Long-Term Gap: A Cross-Task Continuous Learning Person Re-Identification Problem], TMM 2026 (ACCEPT).
 
@@ -7,7 +7,7 @@ Thank you for your kindly attention.
 The code will be available soon.
 
 <**Illustration of task variation and model's continus learning**>
-![img](./img/problem_v14.pdf)
+![img](./img/problem.png)
 
 - (a) ***ST-ReID vs. LT-ReID.*** The task variation present in the S2L-ReID is greater due to the shot interval of the different samples of person than the domain variation present in the different ST-ReIDs.
 - (b) ***Separately learning.*** A model trained only on one side can not adapt to the other side.
@@ -22,8 +22,8 @@ Real-world Re-ID scenarios are constantly changing yet complex and diverse. In o
 ## Methodology
 
 <**Illustration of Meta-Knowledge Accumulation framework (MKA)**>
-![img](./img/method1_v6.jpg)
-![img](./img/method2_v4.jpg)
+![img](./img/method1.png)
+![img](./img/method2.png)
 
 S2L-ReID is essentially a lifelong Re-ID task, but it suffers from a more severe catastrophic forgetting than usual lifelong learning tasks due to the existence of knowledge conflicts caused by task variations. As mentioned above, large task variations not only reduce the short-term model's adaptation ability to long-term samples but also lay the hidden danger for its subsequent continuous training stage. In addition, the Re-ID system has a limited memory bank, so it is bound to clear some old knowledge to allocate space for new knowledge. For the system to make a smooth transition from short-term to long-term scenarios, we need to address two challenges: i) How to eliminate task-specific knowledge to alleviate knowledge conflicts; ii) How to balance the learning of new knowledge and retaining of old knowledge.
 
