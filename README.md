@@ -1,6 +1,6 @@
 # Continuous Short-Term to Long-Term Person Re-Identification
 
-The *official* repository for [Continuous Short-Term to Long-Term Person Re-Identification], TMM 2026 (ACCEPT).
+The *official* repository for [Bridging the Short-Term and Long-Term Gap: A Cross-Task Continuous Learning Person Re-Identification Problem], TMM 2026 (ACCEPT).
 
 Thank you for your kindly attention.
 
